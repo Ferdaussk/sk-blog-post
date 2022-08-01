@@ -1,0 +1,2 @@
+As a wp plugin developer, I want to load a post single page from my plugin directory. Not a custom post type I want to load from the default wp post type.
+I was develop a elementor widget as a plugin. Now how can I solve the problem. note:- I'm already used single_template  hook but it's not working, The hook links is:- https://github.com/Ferdaussk/blog-post-test/blob/main/bwdbp-blog-bootstraping.php
