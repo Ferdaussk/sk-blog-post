@@ -38,7 +38,7 @@ class BWDBPBlog extends Widget_Base {
         );
             
         $this->add_responsive_control(
-            'titleee',
+            'number_sk',
             [
                 'label' => __( 'Page Number', 'ferdaussk' ),
                 'type' => Controls_Manager::NUMBER,
@@ -51,7 +51,7 @@ class BWDBPBlog extends Widget_Base {
     protected function render() {
 
         $settings = $this->get_settings_for_display();
-        $post_per_page = $settings['titleee'];
+        $post_per_page = $settings['number_sk'];
 
 		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
